@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-2">
+          <ul class="custom-menu">
+            <li><a href="index.html">Works</a></li>
+            
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 d-none d-md-block  mr-auto">
+          <div class="tweet d-flex">
+           <span class="bi bi-behance text-white mt-2 mr-3"></span>
+            <div>
+              <p><em>For more details, please download my resume from below. <br> <a href="#"></a></em></p>
+             
+              <p><a href="assets/img/SDE.pdf" class="readmore">DOWNLOAD MY RESUME</a></p>
+        
+        </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+          <h3>About Me</h3>
+          <p>Hello there! I'm a software developer located in Bangalore, Karnataka, India. With a Bachelor's degree in Computer Science & Engineering and a 3-year Diploma degree in Computer Science and Technology, I have a keen interest in UI/UX design. My focus lies in creating visually appealing and user-friendly designs that are characterized by simplicity and originality. In addition to my software development skills, I am also deeply passionate about photography and content creation. <br> <a href = "mailto: shilpabanerjee50@gmail.com">Email: shilpabanerjee50@gmail.com </a></p>
+   
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">SHRABONI BANERJEE</a>
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <section class="section">
+      <div class="container">
+        <div class="row mb-4 align-items-center">
+          <div class="col-md-6" data-aos="fade-up">
+            <h2>AI | ML | DATA PROJECTS</h2>
+            <p>Below are some of my Python projects showcasing AI/ML and data visualization technologies.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section pb-0">
+        <div class="container">
+          <div class="row align-items-stretch">
+            <div class="col-md-8" data-aos="fade-up">
+             <h1>Country-wise Population Visualization</h1>
+             <p>
+              <h2>Description:</h2>
+              <p>
+                The "Country-wise Population Visualization" project is a Streamlit app that allows users to explore and visualize population data for different countries. The app loads data from a CSV file and provides various interactive visualization options to gain insights into population trends.
+              </p>
+            
+              <h2>Features:</h2>
+              <ol>
+                <li>Raw Data Display: Users can choose to display the raw data from the CSV file, providing an overview of all the available population data.</li>
+                <li>Population by Country Bar Chart: The app generates a bar chart visualizing the population of selected countries. Users can choose specific countries to compare and analyze their respective populations.</li>
+                <li>Population Over Time Line Chart: The app creates a line chart that showcases the population changes over time for selected countries. Users can observe population trends for different years and compare the growth patterns of various countries.</li>
+                <li>Statistics Summary: A statistics summary is provided for the selected countries, including population data from different years. Users can quickly access key statistical measures like mean, standard deviation, minimum, maximum, etc.</li>
+                <li>Population Map: An interactive choropleth map is included to visualize the population distribution across countries. The map displays the population data for each country, allowing users to hover over countries and view specific population values.</li>
+              </ol>
+
+              <h2>Technologies Used:</h2>
+              <ul>
+                <li>Streamlit: A Python library for creating interactive web applications.</li>
+                <li>Pandas: A powerful data manipulation and analysis library in Python.</li>
+                <li>Plotly Express: A high-level data visualization library that simplifies the creation of interactive plots.</li>
+                <li>Hosting: Hugging Face</li>
+              </ul>
+            
+              <h2>Usage:</h2>
+              <p>
+                Users can interact with the Streamlit app by selecting options in the sidebar, such as choosing countries, toggling the display of raw data, and exploring various visualizations. The app provides an intuitive and user-friendly interface to analyze and visualize country-wise population data.
+              </p>
+
+              </p>
+
+              <img src="./assets/img/Data-Visualization_start1.png" style="padding: 1rem;" class="img-fluid">
+              <img src="./assets/img/Data-Visualization2.png" style="padding: 1rem;" class="img-fluid">
+              <img src="./assets/img/Data-Visualization3.png" style="padding: 1rem;" class="img-fluid">
+              <img src="./assets/img/Data-Visualization4.png" style="padding: 1rem;" class="img-fluid">
+            
+              <p style="padding: 1rem;"><a href="https://huggingface.co/spaces/shilpabanerjee/Country_Population_Visualization" class="readmore">View Project</a></p> 
+ 
+              <h1>ChatGpt Twitter Sentiment Analysis</h1>
+
+    <h2>Introduction</h2>
+    <p>The ChatGpt Twitter Sentiment Analysis is a Streamlit app that allows users to analyze the sentiment of tweets. It utilizes the TextBlob library to perform sentiment analysis on Twitter data provided in a CSV file.</p>
+
+    <h2>Features</h2>
+    <ol>
+        <li>Upload CSV File: Users can upload a CSV file containing tweets and labels.</li>
+        <li>Display Data: The app displays the first few rows of the CSV file for data preview.</li>
+        <li>Number of Tweets: Users can specify the number of tweets they want to analyze.</li>
+        <li>Sentiment Analysis: By clicking the "Analyze" button, the app performs sentiment analysis on the specified number of tweets.</li>
+        <li>Top Positive and Negative Tweets: The app displays the top positive and negative tweets based on sentiment scores.</li>
+        <li>Sentiment Distribution: The app visualizes the sentiment distribution using a histogram.</li>
+    </ol>
+
+    <h2>How to Use</h2>
+    <ol>
+        <li>Upload a CSV file containing tweets and labels.</li>
+        <li>Specify the number of tweets to analyze.</li>
+        <li>Click the "Analyze" button to perform sentiment analysis.</li>
+        <li>View the top positive and negative tweets along with their sentiment scores.</li>
+        <li>Observe the sentiment distribution graph to get an overview of tweet sentiments.</li>
+    </ol>
+
+    <h2>Technologies Used</h2>
+    <ul>
+        <li>Streamlit: Used to build the interactive web app.</li>
+        <li>Pandas: Used for data manipulation and analysis.</li>
+        <li>TextBlob: Used for sentiment analysis of the tweets.</li>
+        <li>Matplotlib: Used to create the sentiment distribution graph.</li>
+        <li>Hosting: Hugging Face</li>
+      </ul>
+
+    <h2>Conclusion</h2>
+    <p>The ChatGpt Twitter Sentiment Analysis app provides a user-friendly interface to analyze the sentiment of tweets. It enables users to gain insights into the sentiment distribution and identify the top positive and negative tweets. The app can be customized and extended further based on specific requirements.</p>
+
+
+
+              <p style="padding: 1rem;"><a href="https://huggingface.co/spaces/shilpabanerjee/Country_Population_Visualization" class="readmore">View Project</a></p> 
+ 
+              <img src="./assets/img/Cg1.png" style="padding: 1rem;" class="img-fluid">
+              <img src="./assets/img/Cg2.png" style="padding: 1rem;" class="img-fluid">
+              <img src="./assets/img/Cg3.png" style="padding: 1rem;" class="img-fluid">
+            <img src="./assets/img/Cg4.png" style="padding: 1rem;" class="img-fluid">
+           <img src="./assets/img/Cg5.png" style="padding: 1rem;" class="img-fluid">
+           <p style="padding: 1rem;"><a href="https://huggingface.co/spaces/shilpabanerjee/ChatGpt-Twitter-Sentiment-Analysis" class="readmore">View Project</a></p> 
+ 
+            <h1>Sentiment Analysis of Tweets about US Airlines</h1>
+            <img src="./assets/img/Airline1.png" style="padding: 1rem;" class="img-fluid">
+            <img src="./assets/img/Airline2.png" style="padding: 1rem;" class="img-fluid">
+            <p style="padding: 1rem;"><a href="https://huggingface.co/spaces/shilpabanerjee/airline-tweets-visualization" class="readmore">View Project</a></p> 
+ 
+            <h1>Layoffs Data Visualization</h1>
+            <img src="./assets/img/layoffs1.png" style="padding: 1rem;" class="img-fluid">
+            <img src="./assets/img/layoffs2.png" style="padding: 1rem;" class="img-fluid">
+            <img src="./assets/img/layoffs3.png" style="padding: 1rem;" class="img-fluid">
+            <p style="padding: 1rem;"><a href="https://huggingface.co/spaces/shilpabanerjee/Layoffs-Data-Visualization" class="readmore">View Project</a></p> 
+ 
+            </div>
+
+             
+
+          
+            
+            </div>
+          </div>
+        </div>
+        </div>
+</section>
+
+    </main><!-- End #main -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
